@@ -1,0 +1,97 @@
+{
+  "site": {
+    "nav": {
+    "url_1": "About",
+    "url_2": "Contact"
+    },
+    "title": "Earn up to",
+    "subtitle_1": "Comission",
+    "subtitle_2": "Convert your traffic to revenue",
+    "about": {
+      "title": "About",
+      "text": "Globatalent is the the first sports crypto exchange where you can tokenize, trade and support your favorite clubs and sports idols."
+    },
+    "locations": {
+      "title": "Locations",
+      "location_1": {
+        "city": "London",
+        "direction": "GLOBATALENT, Berkeley Suite, 35 Berkeley Square, Mayfair, London, W1J 5BF,UK"
+      },
+      "location_2": {
+        "city": "Buenos Aires",
+        "direction": ""
+      },
+      "location_3": {
+        "city": "Hong Kong",
+        "direction": "1/F Knowles Building, HKU, Pokfulam Road"
+      } 
+    },
+    "joinSocial": "Join our conversations"
+  },
+  "tabs": {
+    "title_1": "Home",
+    "title_2": "Program overview",
+    "title_3": "Why partner with globatalent"
+  },
+  "info": {
+    "title_1": "Sign up",
+    "text_1": "and advertise Globatalent on your website or platform with marketing tools we provide",
+    "title_2": "Your visitors",
+    "text_2": "are redirected to Globatalent through a unique link",
+    "title_3": "Earn money",
+    "text_3": "every month for successful referrals"
+  },
+  "program": {
+    "text_1": "We developed a platform by using our experience and the best practices in sports business to create an extraordinary sports funding model. Atheltes, Clubs and Supporters to participate bellow:",
+    "text_2": "Athletes can tokenize any types of right and share their success with fans and followers. It is possible to tokenize every",
+    "text_3": "Sports clubs or associations can tokenize any types of right to make their business closer to their fans and followers. It is possible to tokenize every future income.",
+    "text_4": "Globatalent revolutionizes the sports industry allowing fans and supporters from all over the world to be part of sports business, an industry valued at USD 1.5 billion",
+    "btn": "Apply now"
+  },
+  "why": {
+    "title_1": "Dedicated partner support",
+    "text_1": "We're driven to help you succed our aim is to help optimise your campaigns and conversion rates in order to help maximise your revenues.",
+    "title_2": "A customised payment model",
+    "text_2": "We can work on different models, cpl, cpa, revenue share.",
+    "title_3": "Powerfull marketing tools to increase conversion",
+    "text_3": "Wide range of marketing tools, customised widgets, tracking links, banners, email templates, live charts and more.",
+    "title_4": "Transparent management",
+    "text_4": "Track the efficiency of your campaigns with detailed reports and monitor your earnings with our plattform."    
+  },
+  "form": {
+    "title": "Looking for funds for your club or your sport career?",
+    "subtitle_1": "Are you an athlete, club or organization?",
+    "subtitle_2": "We can help you to start a campaign now!!",
+    "field_1": {
+      "title": "Username",
+      "help_1": "Username (Required)"
+    },
+    "field_2": {
+      "title": "Password",
+      "help_1": "Password (Required)"
+    },
+    "field_3": {
+      "title": "Firstname",
+      "help_1": "Firstname (Required)"
+    },
+    "field_4": {
+      "title": "Lastname",
+      "help_1": "Lastname (Required)"
+    },
+    "field_5": {
+      "title": "Email",
+      "help_1": "Email (Required)"
+    },
+    "field_6": {
+      "title": "Phone",
+      "help_1": "Phone"
+    },
+    "field_7": {
+      "title": "Company",
+      "help_1": "Company"
+    },
+    "terms": "I have read and agree to the terms and conditions",
+    "buttonSend": "Send",
+    "buttonReset": "Reset"
+  }
+}

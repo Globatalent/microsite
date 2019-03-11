@@ -1,0 +1,26 @@
+#about article {
+  margin-top: 1rem;
+}
+#about article figure {
+  margin: auto;
+}
+#about article h2 {
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  color: "#065aa2";
+  font-size: 1.9rem;
+}
+#about article p {
+  color: #86d0f7;
+}
+#about .image img {
+  max-width: 150px;
+}
+@media (max-width: 768px) {
+  #about {
+    text-align: center;
+  }
+  #about .image img {
+    margin: 0 auto;
+  }
+}

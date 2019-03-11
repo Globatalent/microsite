@@ -1,0 +1,23 @@
+#program .bck, #program .icon {
+  width: 100%;
+}
+#program .title-text {
+  font-size: 2rem;
+}
+#program img.p-icon {
+  max-width: 250px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+#program .button {
+  margin-top: 30px;
+  margin-bottom: 90px;
+  background-color: #fe9900;
+  color: #fff;
+  width: 75%;
+}
+@media (max-width: 768px) {
+  #program{
+    text-align: center;
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "site": {
+    "nav": {
+    "url_1": "Acerca de nosotros",
+    "url_2": "Contacto"
+    },
+    "title": "Ayudando a clubes y atletas a conseguir sus necesidades de financiación.",
+    "subtitle_1": "La revolución del mundo del deporte ya está aquí.",
+    "subtitle_2": "Únete ahora si eres un club profesional o atleta de élite para conseguir extraordinarios ingresos tokenizando futuros beneficios.",
+    "about": {
+      "title": "Acerca de nosotros",
+      "text": "Globatalent es el primer exchange de criptomonedas donde puedes tokenizar, intercambiar y apoyar a tus clubes favoritos e ídolos deportivos"
+    },
+    "locations": {
+      "title": "Donde estamos",
+      "location_1": {
+      "city": "Londres",
+      "direction": "GLOBATALENT, Berkeley Suite, 35 Berkeley Square, Mayfair, London, W1J 5BF,UK"
+      } ,
+      "location_2": {
+        "city": "Buenos Aires",
+        "direction": ""
+      } ,
+      "location_3": {
+        "city": "Hong Kong",
+        "direction": "1/F Knowles Building, HKU, Pokfulam Road"
+      }
+    },
+    "joinSocial": "Unete a la conversación"
+  },
+  "info": {
+    "title_1": "Plataforma exclusiva",
+    "text_1": "Globatalent es una plataforma que te permitirá generar una nueva vía de ingresos extraordinariosn e innovar mejorando el engagement con tus fans del todo el mundo.",
+    "title_2": "Comparte el beneficio",
+    "text_2": "¿Compartir tus futuros beneficios con tus fans y adelantar ingresos futuros ahora? Gracias al blockchain es posible ahora.",
+    "title_3": "Tokenización",
+    "text_3": "Se puede tokenizar cualuier tipo de derecho, desde un % de los futuros ingresos por traspasos, derechos de imagen, premios de torneos, ticketing…hasta derecho a voto…a cambio de recibir financiación hoy."
+  },
+  "form": {
+    "title": "¿Buscas financiación para tu club deportivo o tu carrera deportiva",
+    "subtitle_1": "¿Eres un deportista, club  u organización?",
+    "subtitle_2": "¡Podemos ayudarte a iniciar una campaña ahora!",
+    "field_1": {
+      "title": "Nombre",
+      "title2": "Apellidos",
+      "help_1": "Nombre (Requerido)",
+      "help_2": "Apellido (Opcional)"
+    },
+    "field_2": {
+      "title": "Contacto",
+      "title2": "Teléfono",
+      "help_1": "Email (Requerido)",
+      "help_2": "Teléfono (Opcional)"
+    },
+    "field_3": {
+      "title": "Organizacion/Club",
+      "help": "Nombre del club o atleta"
+    },
+    "field_4": {
+      "title": "País",
+      "help": "¿De donde es el atleta o club?"
+    },
+    "field_5": {
+      "title": "Descripción",
+      "help": "Dinos brevemente cómo podemos ayudarte a alcanzar tus metas"
+    },
+    "field_6": {
+      "title": "Deporte",
+      "option_1": "e-Sports",
+      "option_2": "Baseball",
+      "option_3": "Basketball",
+      "option_4": "Cricket",
+      "option_5": "Cycling",
+      "option_6": "F1",
+      "option_7": "Fighters",
+      "option_8": "Football",
+      "option_9": "Moto GP",
+      "option_10": "Soccer",
+      "option_11": "Tennis",
+      "option_12": "Triathlon"
+    },
+    "field_7": {
+      "title": "Financiación necesaria",
+      "option_1": {
+        "value": 25000,
+        "label": "25000 USD - 100000 USD" 
+      },
+      "option_2": {
+        "value": 100000,
+        "label": "100000 USD - 500000 USD"
+      },
+      "option_3": {
+        "value": 500000,
+        "label": "500000 USD - 1000000 USD"
+      },
+      "option_4": {
+        "value": 1000000,
+        "label": ">1000000 USD"
+      }
+    },
+    "terms": "He leído y acepto los términos y condiciones y la política de privacidad",
+    "buttonSend": "Enviar",
+    "buttonReset": "Rehacer"
+  },
+  "campaigns": {
+    "header": "Campañas activas:",
+    "showMore": "Mostrar más",
+    "funding": "Necesidades de financiación",
+    "softcap": "Mínimo requerido",
+    "startingSoon": "Próximamente",
+    "title_1": "Únete al Europa point",
+    "text_1": "20% de los beneficios de UEFA y futuros traspasos de los próximos tres años",
+    "title_2": "Conoce a la emergente estrella de la WTA",
+    "text_2": "15%  de los beneficios en los próximos 7 años",
+    "title_3": "Muy Pronto - Futuro campeón de Tenis",
+    "text_3": "15% de los premios obtenidos durante los próximos 10 años"
+  },
+  "supported": {
+    "header": "Globatalent es apoyado por:",
+    "showMore": "Mostrar más",
+    "text_1": "Formula 1®",
+    "text_2": "Veterano de la NBA",
+    "text_3": "Jugador de tennis",
+    "text_4": "Equipo de e-Sports"
+  }
+}

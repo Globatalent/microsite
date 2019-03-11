@@ -1,0 +1,28 @@
+#why {
+  padding-bottom: 5rem;
+}
+#why .bck {
+  width: 100%;
+  margin-bottom: 3rem;
+}
+#why .bck2 {
+  width: 100%;
+  margin-top: 2rem;
+}
+#why figure img {
+  max-width: 120px;
+  margin: 0 auto;
+}
+#why h2 {
+  text-transform: uppercase;
+  margin-bottom: 0;
+  color: #065aa2;
+}
+#why p {
+  color: #065aa2;
+}
+@media (max-width: 768px) {
+  #why{
+    text-align: center;
+  }
+}

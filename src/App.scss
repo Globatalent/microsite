@@ -1,0 +1,40 @@
+@charset "utf-8";
+
+@import 'bulma/bulma.sass';
+
+@font-face {
+  font-family: "Aller";
+  src: url("assets/fonts/Aller_Rg.ttf");
+  }
+  
+body {
+  font-family: "Aller"
+}
+
+.cube {
+  background-image: url('./assets/img/cube.png');
+  background-size: cover;
+  width: 20px;
+  height: 20px;
+  display: block;
+  margin: 3px 10px;
+  float: left;
+}
+.tabs.is-toggle a {
+  color: #86d0f7;
+  border: 3px solid transparent;
+  border-top: none;
+  border-bottom: none;
+}
+.tabs.is-toggle li.is-active a {
+  background-color: #fff;
+  color: #86d0f7;
+  border: 3px solid #065aa2;
+  border-top: none;
+  border-bottom: none;
+}
+@media (max-width: 768px) {
+  .tabs ul {
+    display: block;
+  }
+}
