@@ -5,9 +5,9 @@ import Hero from './components/Hero';
 import Info from './components/Info';
 import Program from './components/Program';
 import Why from './components/Why';
-import Modal from './components/Modal';
 import Footer from './components/Footer';
 import './i18n';
+import './components/Modal.css'
 
 class App extends Component {
   state = {
@@ -41,7 +41,6 @@ class App extends Component {
         <div style={this.state.displayedTab != 3 ? { display: "none" } : {}}>
           <Why t={this.props.t}/>
         </div>
-        <Modal t={this.props.t}/>
         <Footer t={this.props.t}/>
       </div>
     );

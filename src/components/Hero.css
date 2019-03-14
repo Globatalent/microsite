@@ -1,0 +1,45 @@
+#hero {
+  min-height: 575px;
+}
+#hero h1 {
+  text-transform: uppercase;
+  text-align: center;
+}
+#hero .subtitle {
+  line-height: 10px;
+  text-align: center;
+}
+#hero .percent {
+  line-height: 100px;
+}
+#hero .percent {
+  font-size: 122px;
+  font-weight: bold;
+}
+#hero .background-box {
+  position: absolute;
+  top: 20%;
+  width: 550px;
+  right: -20px;
+}
+#hero .img-bck {
+  min-width: 500px;
+  width: 500px;
+  position: absolute;
+  top: -74px;
+  right: 0;
+}
+@media (max-width: 768px) {
+  #hero .background-box {
+    position: absolute;
+    top: 420%;
+    width: 550px;
+    right: -122px;
+  }
+  #hero .img-bck {
+    top: 20px;
+    min-width: 450px;
+    width: 450px;
+    right: -10px;
+  }
+}
