@@ -24,17 +24,17 @@ class Program extends Component {
           <div className="column is-3 has-text-centered">
             <img src={prog_1} alt="background" className="p-icon"/>
             <p>{this.props.t('program.text_2')}</p>
-            <input className="button" value={this.props.t('program.btn')} />
+            {/* <input className="button" value={this.props.t('program.btn')} /> */}
           </div>
           <div className="column is-3 has-text-centered">
             <img src={prog_2} alt="background" className="p-icon"/>
             <p>{this.props.t('program.text_3')}</p>
-            <input className="button" value={this.props.t('program.btn')} />
+            {/* <input className="button" value={this.props.t('program.btn')} /> */}
           </div>
           <div className="column is-3 has-text-centered">
             <img src={prog_3} alt="background" className="p-icon"/>
             <p>{this.props.t('program.text_4')}</p>
-            <input className="button" value={this.props.t('program.btn')} />
+            {/* <input className="button" value={this.props.t('program.btn')} /> */}
           </div>
           <div className="column is-1"></div>
         </div>

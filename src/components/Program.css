@@ -16,6 +16,11 @@
   color: #fff;
   width: 75%;
 }
+#program p {
+
+
+  margin-bottom: 90px;
+}
 @media (max-width: 768px) {
   #program{
     text-align: center;

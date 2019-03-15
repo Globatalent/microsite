@@ -60,7 +60,7 @@
     "text_4": "Track the efficiency of your campaigns with detailed reports and monitor your earnings with our plattform."    
   },
   "form": {
-    "title": "Looking for funds for your club or your sport career?",
+    "title": "Looking to monetize your traffic?",
     "subtitle_1": "Are you an athlete, club or organization?",
     "subtitle_2": "We can help you to start a campaign now!!",
     "field_1": {
@@ -93,6 +93,7 @@
     },
     "terms": "I have read and agree to the terms and conditions",
     "buttonSend": "Send",
-    "buttonReset": "Reset"
+    "buttonReset": "Reset",
+    "error": "Try it later!"
   }
 }
