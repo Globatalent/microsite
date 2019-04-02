@@ -32,15 +32,17 @@ class Header extends Component {
       Email: this.state.Email
     };
 
-    axios.post(`http://go.globatalentpartners.com/api/registeraffiliate/`, { user })
+    axios({method: 'POST', url: `https://go.globatalentpartners.com/api/registeraffiliate/`, params: user })
       .then(res => {
-        console.log(res);
-        console.log(res.data);
-        this.setState({ displayModal: false, successMessagge: "Saved succesfully!"});
+        let arrResults = res.data.split('|');
+        if(arrResults[0] === 0) {
+          this.setState({ displayModal: false, successMessagge: "Saved succesfully!"});
+        }
+        else {
+          this.setState({ errorMessagge: arrResults[1]});
+        }
       })
       .catch(err => {
-        console.log('error happend')
-        console.log(err)
         this.setState({ errorMessagge: "Try it later!"});
       })
   }
