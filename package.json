@@ -1,5 +1,5 @@
 {
-  "name": "landing",
+  "name": "microsite",
   "version": "1.0.0",
   "homepage": "https://globatalentpartners.com",
   "dependencies": {
@@ -20,7 +20,7 @@
     "webfontloader": "^1.6.28"
   },
   "scripts": {
-    "predeploy": "npm run build && cp build/CNAME CNAME && rm build/CNAME && mv build b2bpromo && mkdir build && mv b2bpromo build/ && mv CNAME build/ && cp -r misc/b2bthanks build/ && cp -r misc/redirect build/ && cp -r misc/b2cpromo build/",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
