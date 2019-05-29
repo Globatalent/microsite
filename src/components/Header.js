@@ -204,7 +204,7 @@ class Header extends Component {
                   <div className="control">
                     <label className="checkbox">
                       <input autoComplete='off' required type='checkbox' name='privacyTool' />
-                      <a href="https://market.globatalent.com/terms" rel="noopener noreferrer" target="_blank">{this.props.t('form.terms')}</a>
+                      <a href="https://globatalent.com/terms" rel="noopener noreferrer" target="_blank">{this.props.t('form.terms')}</a>
                     </label>
                   </div>
                 </div>

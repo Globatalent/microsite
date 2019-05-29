@@ -23,11 +23,9 @@ class Why extends Component {
           <div className="column is-4">
             <article className="column is-12">
               <div className="columns">
-                <div className="column is-3">
-                  <figure className="image">
+                  <figure className="column is-3 image">
                     <img src={img_1} alt="Icon" />
                   </figure>
-                </div>
                 <div className="column is-9">
                   <h2 className="title is-4">{this.props.t('why.title_1')}</h2>
                   <p>{this.props.t('why.text_1')}</p>
@@ -36,11 +34,9 @@ class Why extends Component {
             </article>
             <article className="column is-12">
               <div className="columns">
-                <div className="column is-3">
-                  <figure className="image">
+                  <figure className="image column is-3">
                     <img src={img_2} alt="Icon" />
                   </figure>
-                </div>
                 <div className="column is-9">
                   <h2 className="title is-4">{this.props.t('why.title_2')}</h2>
                   <p>{this.props.t('why.text_2')}</p>
@@ -49,11 +45,9 @@ class Why extends Component {
             </article>
             <article className="column is-12">
               <div className="columns">
-                <div className="column is-3">
-                  <figure className="image">
+                  <figure className="column is-3 image">
                     <img src={img_3} alt="Icon" />
                   </figure>
-                </div>
                 <div className="column is-9">
                   <h2 className="title is-4">{this.props.t('why.title_3')}</h2>
                   <p>{this.props.t('why.text_3')}</p>
@@ -62,11 +56,9 @@ class Why extends Component {
             </article>
             <article className="column is-12">
               <div className="columns">
-                <div className="column is-3">
-                  <figure className="image">
+                  <figure className="column is-3 image">
                     <img src={img_4} alt="Icon" />
                   </figure>
-                </div>
                 <div className="column is-9">
                   <h2 className="title is-4">{this.props.t('why.title_4')}</h2>
                   <p>{this.props.t('why.text_4')}</p>
