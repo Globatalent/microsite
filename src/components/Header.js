@@ -37,7 +37,8 @@ class Header extends Component {
         let arrResults = res.data.split('|');
         
         if(arrResults[0] == 0) {
-          this.setState({ displayModal: false, successMessagge: "Saved succesfully!"});
+          document.getElementById('signUpForm').reset();
+          this.setState({ displayModal: false, successMessagge: "Saved succesfully!", Username: '', Password: '', Firstname: '', LastName: '', Email: ''});
         }
         else {
           this.setState({ errorMessagge: arrResults[1]});
@@ -103,7 +104,7 @@ class Header extends Component {
         <div id="modal" className={this.state.displayModal ? 'modal is-active' : 'modal'}>
           <div className="modal-background"></div>
           <div className="modal-content">
-          <form className="column" action='' name='register' method='POST' style={{backgroundColor: '#0a58a3'}} onSubmit={this.handleSubmit}>
+          <form className="column" action='' name='register' method='POST' style={{backgroundColor: '#0a58a3'}} onSubmit={this.handleSubmit} id="signUpForm">
               <h2 className="title is-4 form-title" style={{texTransform: 'uppercase', whiteSpace: 'nowrap'}}>{this.props.t('form.title')}</h2>
               {/* <div className="title is-4 has-text-centered text-centered">
                 <p className="form-subtitle">{this.props.t('form.subtitle_1')}<br /><span>{this.props.t('form.subtitle_2')}</span></p>
