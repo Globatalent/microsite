@@ -77,14 +77,14 @@ class Header extends Component {
             </a>
           </div> */}
           <div className="navbar-end">
-            {/* <div className="navbar-item">
+            <div className="navbar-item">
               <ReactFlagsSelect
                 countries={["GB", "ES", "PT","RU", "CN"]}
                 customLabels={{"GB": "EN-GB","ES": "ES","PT": "PT-BR","RU": "RU","CN": "ICN"}}
                 placeholder="Select Language"
                 showSelectedLabel={false}
                 showOptionLabel={false} />
-            </div> */}
+            </div>
             <div className="navbar-item">
               <div className="buttons">
                 <a className="button is-primary" style={{ backgroundColor: '#fe9900' }} onClick={this.toggleModal}>
