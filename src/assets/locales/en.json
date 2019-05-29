@@ -1,4 +1,44 @@
 {
+  "footer": {
+    "about": {
+      "title": "About",
+      "description": "Globatalent is the the <strong class=\"has-text-weight-bold is-blue--light\">first blockchain sports exchange</strong> where you can tokenize, trade and support your favorite clubs and sports idols."
+    },
+    "location": {
+      "title": "Locations",
+      "sites": [
+        {
+          "city": "London",
+          "address": "GLOBATALENT, Berkeley Suite, 35 Berkeley Square, Mayfair, London, W1J 5BF, UK"
+        },
+        {
+          "city": "Buenos Aires",
+          "address": ""
+        },
+        {
+          "city": "Hong Kong",
+          "address": "1/F Knowles Building, HKU, Pokfulam Road"
+        }
+      ]
+    },
+    "social": {
+      "title": "Join our conversations"
+    },
+    "small": {
+      "privacyPolicy": "Privacy Policy",
+      "termsOfUse": "Terms of Use",
+      "risksDisclaimer": "Risk Disclaimer",
+      "copyright": "{{year}} Globatalent. All rights reserved",
+      "company": "Globatalent, with Authorisation Code: 426519153438, and registered office in 36A Dr. Roy's Drive. P.0 Box 2510. Grand Cayman. KY1-1104. Cayman Islands"
+    },
+    "contactUs": "Contact us at:",
+    "contactOr": "or",
+    "locations": "Locations",
+    "london": "London",
+    "buenosaires": "Buenos Aires",
+    "hongkong": "Hong Kong",
+    "text": "Is the first blockchain sports crypto exchange where you can tokenize, trade and support your favorite clubs and sports idols."
+  },
   "site": {
     "nav": {
     "url_1": "About",

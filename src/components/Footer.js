@@ -12,7 +12,8 @@ import hongkong from '../assets/img/hongkong.png'
 const style = {
   color: {
     color: "rgb(148,207,240)",
-    marginBottom: 0
+    marginBottom: 0,
+    backgroundColor: "rgb(36,91,157)"
   },
   img: {
     maxWidth: "18rem",
