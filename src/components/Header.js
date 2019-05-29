@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import axios from 'axios';  
 import logo from '../assets/img/logo--white.png';
 import './Modal.css'
+import ReactFlagsSelect from 'react-flags-select';
+import 'react-flags-select/css/react-flags-select.css';
 
 class Header extends Component {
   state = {
@@ -49,6 +51,7 @@ class Header extends Component {
       })
   }
   render() {
+    
     return (
       <header className="">
         <nav className="navbar is-transparent level" style={{ backgroundColor: '#086fcb', padding: '1rem 0', marginBottom: '0' }}>
@@ -74,8 +77,19 @@ class Header extends Component {
             </a>
           </div> */}
           <div className="navbar-end">
+            {/* <div className="navbar-item">
+              <ReactFlagsSelect
+                countries={["GB", "ES", "PT","RU", "CN"]}
+                customLabels={{"GB": "EN-GB","ES": "ES","PT": "PT-BR","RU": "RU","CN": "ICN"}}
+                placeholder="Select Language"
+                showSelectedLabel={false}
+                showOptionLabel={false} />
+            </div> */}
             <div className="navbar-item">
               <div className="buttons">
+                <a className="button is-primary" style={{ backgroundColor: '#fe9900' }} onClick={this.toggleModal}>
+                  <strong>Sign in</strong>
+                </a>
                 <a className="button is-primary" style={{ backgroundColor: '#fe9900' }} onClick={this.toggleModal}>
                   <strong>Sign up</strong>
                 </a>
