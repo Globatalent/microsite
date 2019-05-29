@@ -35,7 +35,8 @@ class Header extends Component {
     axios({method: 'POST', url: `https://go.globatalentpartners.com/api/registeraffiliate/`, params: user })
       .then(res => {
         let arrResults = res.data.split('|');
-        if(arrResults[0] === 0) {
+        
+        if(arrResults[0] == 0) {
           this.setState({ displayModal: false, successMessagge: "Saved succesfully!"});
         }
         else {
